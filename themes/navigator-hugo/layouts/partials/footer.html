@@ -3,38 +3,55 @@
     <div class="top-footer">
         <div class="container">
             <div class="row">
-                <div class="col-sm-3 col-md-3 col-lg-3">
-                    <h3>About</h3>
-                    {{ with .Site.Params.footerDescription }}<p>{{ . }}</p>{{ end }}
-                </div>
-                <div class="col-sm-3 col-md-3 col-lg-3">
-                    <h3>Our Services</h3>
+                <div class="col-sm">
+                    <h3>PRODUCT</h3>
                     <ul>
-                        {{ range .Site.Menus.service }}
+                        {{ range .Site.Menus.product }}
                         <li>
                             <a href="{{ .URL }}">{{ .Name }}</a>
                         </li>
                         {{ end }}
                     </ul>
                 </div>
-                <div class="col-sm-3 col-md-3 col-lg-3">
-                    <h3>Quick Links</h3>
+                <div class="col-sm">
+                    <h3>COMPANY</h3>
                     <ul>
-                        {{ range .Site.Menus.quicklink }}
+                        {{ range .Site.Menus.company }}
                         <li>
                             <a href="{{ .URL }}">{{ .Name }}</a>
                         </li>
                         {{ end }}
                     </ul>
                 </div>
-                <div class="col-sm-3 col-md-3 col-lg-3">
-                    <h3>Subscribe Now</h3>
-                    <form class="subscribe-form">
-                        <div class="form-group">
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                        </div>
-                        <button type="submit" class="btn btn-main-sm">Subscribe Now</button>
-                    </form>
+                <div class="col-sm">
+                    <h3>SECURITY</h3>
+                    <ul>
+                        {{ range .Site.Menus.security }}
+                        <li>
+                            <a href="{{ .URL }}">{{ .Name }}</a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </div>
+                <div class="col-sm">
+                    <h3>LEARN</h3>
+                    <ul>
+                        {{ range .Site.Menus.learn }}
+                        <li>
+                            <a href="{{ .URL }}">{{ .Name }}</a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </div>
+                <div class="col-sm">
+                    <h3>EXTEND</h3>
+                    <ul>
+                        {{ range .Site.Menus.extend }}
+                        <li>
+                            <a href="{{ .URL }}">{{ .Name }}</a>
+                        </li>
+                        {{ end }}
+                    </ul>
                 </div>
             </div>
         </div>

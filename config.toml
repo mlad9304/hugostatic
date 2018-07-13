@@ -9,13 +9,72 @@ theme = "navigator-hugo"
     # Navbar Menus
     [[menu.nav]]
         name    = "Our Services"
-        url     = "/services"
+        url     = "/services.html"
     [[menu.nav]]
         name    = "Our Expertise"
-        url     = "/expertise"
+        url     = "/our-expertise"
     [[menu.nav]]
         name    = "Our Company"
-        url     = "/company"
+        url     = "/our-company"
+    
+
+
+    # Footer Product Menu
+    [[menu.product]]
+        name    = "Pricing"
+        url     = "/pricing"
+    [[menu.product]]
+        name    = "Why Us"
+        url     = "/why-search365"
+    [[menu.product]]
+        name    = "How It Works"
+        url     = "/how-it-works"
+
+    # Footer Company links Menu
+    [[menu.company]]
+        name    = "About Us"
+        url     = "/about"
+    [[menu.company]]
+        name    = "Blog"
+        url     = "/blog"
+    [[menu.company]]
+        name    = "Jobs"
+        url     = "/jobs"
+
+    # Footer Security links Menu
+    [[menu.security]]
+        name    = "Availability &amp; Trust"
+        url     = "/availability-trust"
+    [[menu.security]]
+        name    = "Security"
+        url     = "/security"
+    [[menu.security]]
+        name    = "White Hat"
+        url     = "/whitehat"
+
+    # Footer Learn links Menu
+    [[menu.learn]]
+        name    = "Help &amp; Support"
+        url     = "/support"
+    [[menu.learn]]
+        name    = "Documentation"
+        url     = "/docs"
+    [[menu.learn]]
+        name    = "Open Source"
+        url     = "/opensource"
+
+    # Footer Extend links Menu
+    [[menu.extend]]
+        name    = "Lock"
+        url     = "/lock"
+    [[menu.extend]]
+        name    = "WordPress"
+        url     = "/wordpress"
+    [[menu.extend]]
+        name    = "API Explorer"
+        url     = "/apiv2"
+
+    
     
 # Site Params
 [params]
@@ -40,3 +99,22 @@ theme = "navigator-hugo"
         enable  = true
         title   = "Our Services"
         description = "Improved website search always means either a measurable increase in sales or productivity. When you schedule a website search audit, we prepare a detailed analysis of your website search, delivering both insights and recommendations for how you can improve customer/stakeholder results through better search."
+
+
+    # Contact Section
+    [params.contact]
+        enable  = true
+        topTitle= "DROP US A NOTE"
+        title   = "Contact Us."
+        subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
+        address = "14/05, Stockhome <br> Victori Palace , United States"
+        phone   = "(03) 9283 2617"
+        fax     = "+61 3827 3590"
+        facebook= "https://www.facebook.com/"
+        twitter = "https://twitter.com/"
+        linkedin= "https://www.linkedin.com/"
+        dribbble= "https://dribbble.com/"
+        instagram= "https://www.instagram.com/"
+        mapLatitude = "51.507351"
+        mapLongitude= "-0.127758"
+        mapMarker   = "images/marker.png"
