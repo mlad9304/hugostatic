@@ -1,3 +1,36 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Our Services | Dept"
+
+theme = "navigator-hugo"
+
+# Site Menus
+[menu]
+    # Navbar Menus
+    [[menu.nav]]
+        name    = "Our Services"
+        url     = "/services"
+    [[menu.nav]]
+        name    = "Our Expertise"
+        url     = "/expertise"
+    [[menu.nav]]
+        name    = "Our Company"
+        url     = "/company"
+    
+# Site Params
+[params]
+    home = "Home"
+    logo = "images/logo.png"
+    dateFormat = "6 January 2006"
+    footerDescription = "Integer posuere erat a ante venenati dapibus posuere velit aliquet. Fusce dapibus, tellus cursus commodo, tortor mauris sed posuere."
+
+    # Hero Area Section
+    [params.hero]
+        enable  = true
+        heading = "We love to make brands grow"
+        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quo dolor est incidunt suscipit minima, alias numquam voluptatum rerum porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore at laboriosam unde repellat id expedita quae quisquam libero officia consequatur."
+        button  = true
+        btnText = "Know More"
+        btnURL  = "https://themefisher.com/"
+        videoThumb = "images/slider/video-player-thumb.jpg"
+        videoURL   = "https://www.youtube.com/embed/g3-VxLQO7do"
