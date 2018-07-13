@@ -747,10 +747,14 @@ a:focus, a:hover {
 }
 
 .about-2 h2 {
-  position: relative;
+  
 }
 
-.about-2 h2:before {
+.about-2 p {
+  font-size: 19px;
+}
+
+/* .about-2 h2:before {
   position: absolute;
   left: -15%;
   top: 18px;
@@ -767,7 +771,7 @@ a:focus, a:hover {
   .about-2 h2:before {
     display: none;
   }
-}
+} */
 
 /*=================================================================
  Call To Action 1

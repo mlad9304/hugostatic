@@ -34,3 +34,9 @@ theme = "navigator-hugo"
         btnURL  = "https://themefisher.com/"
         videoThumb = "images/slider/video-player-thumb.jpg"
         videoURL   = "https://www.youtube.com/embed/g3-VxLQO7do"
+
+    # About 2 Section
+    [params.aboutSm]
+        enable  = true
+        title   = "Our Services"
+        description = "Improved website search always means either a measurable increase in sales or productivity. When you schedule a website search audit, we prepare a detailed analysis of your website search, delivering both insights and recommendations for how you can improve customer/stakeholder results through better search."
