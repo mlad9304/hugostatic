@@ -1,136 +1,108 @@
 baseURL = "https://amazing-heyrovsky-50ee4a.netlify.com/"
 languageCode = "en-us"
-title = "Our Services | Dept"
-
 theme = "navigator-hugo"
-
-# Site Menus
-[menu]
-    # Navbar Menus
-    [[menu.nav]]
-        name    = "Our Services"
-        url     = "/services.html"
-        weight  = 11
-    [[menu.nav]]
-        name    = "Our Expertise"
-        url     = "/our-expertise"
-        weight  = 12
-    [[menu.nav]]
-        name    = "Our Company"
-        url     = "/our-company"
-        weight  = 13
-    
-
-
-    # Footer Product Menu
-    [[menu.product]]
-        name    = "Pricing"
-        url     = "/pricing"
-        weight  = 21
-    [[menu.product]]
-        name    = "Why Us"
-        url     = "/why-search365"
-        weight  = 22
-    [[menu.product]]
-        name    = "How It Works"
-        url     = "/how-it-works"
-        weight  = 23
-
-    # Footer Company links Menu
-    [[menu.company]]
-        name    = "About Us"
-        url     = "/about"
-        weight  = 31
-    [[menu.company]]
-        name    = "Blog"
-        url     = "/blog"
-        weight  = 32
-    [[menu.company]]
-        name    = "Jobs"
-        url     = "/jobs"
-        weight  = 33
-
-    # Footer Security links Menu
-    [[menu.security]]
-        name    = "Availability &amp; Trust"
-        url     = "/availability-trust"
-        weight  = 41
-    [[menu.security]]
-        name    = "Security"
-        url     = "/security"
-        weight  = 42
-    [[menu.security]]
-        name    = "White Hat"
-        url     = "/whitehat"
-        weight  = 43
-
-    # Footer Learn links Menu
-    [[menu.learn]]
-        name    = "Help &amp; Support"
-        url     = "/support"
-        weight  = 51
-    [[menu.learn]]
-        name    = "Documentation"
-        url     = "/docs"
-        weight  = 52
-    [[menu.learn]]
-        name    = "Open Source"
-        url     = "/opensource"
-        weight  = 53
-
-    # Footer Extend links Menu
-    [[menu.extend]]
-        name    = "Lock"
-        url     = "/lock"
-        weight  = 61
-    [[menu.extend]]
-        name    = "WordPress"
-        url     = "/wordpress"
-        weight  = 62
-    [[menu.extend]]
-        name    = "API Explorer"
-        url     = "/apiv2"
-        weight  = 63
-
-    
-    
-# Site Params
+title = "Our Services | Dept"
+[[menu.company]]
+name = "Jobs"
+url = "/jobs"
+weight = 3
+[[menu.company]]
+name = "Blog"
+url = "/blog"
+weight = 2
+[[menu.company]]
+name = "About Us"
+url = "/about"
+weight = 1
+[[menu.extend]]
+name = "API Explorer"
+url = "/apiv2"
+weight = 3
+[[menu.extend]]
+name = "WordPress"
+url = "/wordpress"
+weight = 2
+[[menu.extend]]
+name = "Lock"
+url = "/lock"
+weight = 1
+[[menu.learn]]
+name = "Open Source"
+url = "/opensource"
+weight = 3
+[[menu.learn]]
+name = "Documentation"
+url = "/docs"
+weight = 2
+[[menu.learn]]
+name = "Help & Support"
+url = "/support"
+weight = 1
+[[menu.nav]]
+name = "Our Company"
+url = "/our-company"
+weight = 3
+[[menu.nav]]
+name = "Our Expertise"
+url = "/our-expertise"
+weight = 2
+[[menu.nav]]
+name = "Our Services"
+url = "/services.html"
+weight = 1
+[[menu.product]]
+name = "How It Works"
+url = "/how-it-works"
+weight = 3
+[[menu.product]]
+name = "Why Us"
+url = "/why-search365"
+weight = 2
+[[menu.product]]
+name = "Pricing"
+url = "/pricing"
+weight = 1
+[[menu.security]]
+name = "White Hat"
+url = "/whitehat"
+weight = 3
+[[menu.security]]
+name = "Security"
+url = "/security"
+weight = 2
+[[menu.security]]
+name = "Availability & Trust"
+url = "/availability-trust"
+weight = 1
 [params]
-    logo = "images/logo.png"
-    dateFormat = "6 January 2006"
-
-    # Hero Area Section
-    [params.hero]
-        enable  = true
-        heading = "Your data presented in a way that matches the needs of your audience."
-        description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quo dolor est incidunt suscipit minima, alias numquam voluptatum rerum porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore at laboriosam unde repellat id expedita quae quisquam libero officia consequatur."
-        button  = true
-        btnText = "Know More"
-        btnURL  = "https://themefisher.com/"
-        videoThumb = "images/slider/video-player-thumb.jpg"
-        videoURL   = "https://www.youtube.com/embed/g3-VxLQO7do"
-
-    # About 2 Section
-    [params.aboutSm]
-        enable  = true
-        title   = "Our Services"
-        description = "Improved website search always means either a measurable increase in sales or productivity. When you schedule a website search audit, we prepare a detailed analysis of your website search, delivering both insights and recommendations for how you can improve customer/stakeholder results through better search."
-
-
-    # Contact Section
-    [params.contact]
-        enable  = true
-        topTitle= "DROP US A NOTE"
-        title   = "Contact Us."
-        subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
-        address = "14/05, Stockhome <br> Victori Palace , United States"
-        phone   = "(03) 9283 2617"
-        fax     = "+61 3827 3590"
-        facebook= "https://www.facebook.com/"
-        twitter = "https://twitter.com/"
-        linkedin= "https://www.linkedin.com/"
-        dribbble= "https://dribbble.com/"
-        instagram= "https://www.instagram.com/"
-        mapLatitude = "51.507351"
-        mapLongitude= "-0.127758"
-        mapMarker   = "images/marker.png"
+dateFormat = "6 January 2006"
+logo = "images/logo.png"
+[params.aboutSm]
+description = "Improved website search always means either a measurable increase in sales or productivity. When you schedule a website search audit, we prepare a detailed analysis of your website search, delivering both insights and recommendations for how you can improve customer/stakeholder results through better search."
+enable = true
+title = "Our Services"
+[params.contact]
+address = "14/05, Stockhome <br> Victori Palace , United States"
+dribbble = "https://dribbble.com/"
+enable = true
+facebook = "https://www.facebook.com/"
+fax = "+61 3827 3590"
+instagram = "https://www.instagram.com/"
+linkedin = "https://www.linkedin.com/"
+mapLatitude = "51.507351"
+mapLongitude = "-0.127758"
+mapMarker = "images/marker.png"
+phone = "(03) 9283 2617"
+subtitle = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
+title = "Contact Us."
+topTitle = "DROP US A NOTE"
+twitter = "https://twitter.com/"
+[params.hero]
+btnText = "Know More"
+btnURL = "https://themefisher.com/"
+button = true
+description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. At quo dolor est incidunt suscipit minima, alias numquam voluptatum rerum porro. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore at laboriosam unde repellat id expedita quae quisquam libero officia consequatur."
+enable = true
+heading = "Your data presented in a way that matches the needs of your audience."
+videoThumb = "images/slider/video-player-thumb.jpg"
+videoURL = "https://www.youtube.com/embed/g3-VxLQO7do"
