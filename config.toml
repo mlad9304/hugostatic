@@ -10,15 +10,15 @@ theme = "navigator-hugo"
     [[menu.nav]]
         name    = "Our Services"
         url     = "/services.html"
-        weight  = 2
+        weight  = 1
     [[menu.nav]]
         name    = "Our Expertise"
         url     = "/our-expertise"
-        weight  = 3
+        weight  = 2
     [[menu.nav]]
         name    = "Our Company"
         url     = "/our-company"
-        weight  = 4
+        weight  = 3
     
 
 
