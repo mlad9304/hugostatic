@@ -7,7 +7,7 @@ sections:
 - path: content
   label: Pages
   create: all
-upload_dir: static
+upload_dir: static/uploads
 public_path: "/images"
 front_matter_path: ''
 use_front_matter_path: false
