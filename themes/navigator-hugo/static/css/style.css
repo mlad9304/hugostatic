@@ -1747,6 +1747,12 @@ a:focus, a:hover {
   padding: 30px 0;
 }
 
+.footer-bottom ul li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
 .footer-bottom h5 {
   font-size: 12px;
   line-height: 1;
