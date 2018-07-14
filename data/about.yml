@@ -1,28 +1,28 @@
 enable  : true
 item    :
   - positionRight : true
-    image : images/data-migration-map.png
+    image : images/about/data-migration-map.png
     title : Data Migration and Integration
     description : >
       <p>The exponential growth of all dimensions of data (particularly unstructured data), has long since outstripped the capacity of legacy systems to deal effectively with the information management requirements of today. The requirement for many legacy systems to duplicate and integrate datasets in order to perform the traditional full text search further amplifies and compounds the already chronic data problem.</p>
       <p>We specialise in delivering bespoke configured connectors for data transformation no matter where the content or data sits or where it needs to migrate to.</p>
   
   - positionRight : false
-    image : images/big-data-search.png
+    image : images/about/big-data-search.png
     title : Big Data Search
     description : >
       <p>Big Data from web, email, social and cloud sources is fuelling a new, annual, $48 billion opportunity for smarter analytical, marketing and customer relationship management technologies [Gartner]. Enterprises that have deployed search infrastructure have the ability to exploit this data and the opportunities that go with it.</p>
       <p>Search is the perfect tool for finding useful information that is buried under mounds of other irrelevant information and it can provide near real-time access across a wide variety of content types, managed in otherwise siloed systems. It can also provide a flexible and intuitive interface for exploring that information.</p>
 
   - positionRight : true
-    image : images/enterprise-wide-search.png
+    image : images/about/enterprise-wide-search.png
     title : Enterprise Wide Search
     description : >
       <p>Search technology effectiveness is one of the most important contributors to productivity and sales. 80% of senior managers say finding information is critical to success, yet most companies do not manage search functionality on their own websites or intranet(s). The majority have no budget, no staff and no strategy for managing search and unstructured on their internal platforms.</p>
       <p>We deliver search optimisation, customer intent analysis, user satisfaction scoring, faceted site search, SEM and SEO alignment. We can help improve your customer pathways and their search results on your website(s) – all of which is measurable on search driven dashboards/consoles. We can do this either through our managed service offering or on a project consultancy basis.</p>
 
   - positionRight : false
-    image : images/e-commerce.jpg
+    image : images/about/e-commerce.jpg
     title : E-Commerce
     description : >
       <p>If customers can’t find what they’re looking for, they can’t buy it. That’s why good website search is key to your e-commerce success.</p>
@@ -34,14 +34,14 @@ item    :
       <p>This will improve your top line and the user experience by helping customers find what they are searching for on your site by optimizing your query and content processing.</p>
 
   - positionRight : true
-    image : images/managed-search-services.png
+    image : images/about/managed-search-services.png
     title : Managed Search Services
     description : >
       <p>Enterprise Search software is not ‘fire and forget’ technology and good search management is not just about monitoring platform performance. User requirements are constantly evolving and stakeholder intent can only be properly understood from careful analysis of user behaviour.</p>
       <p>We offer a technically robust, rapidly deployable managed service which can be hosted either locally or in the Cloud. Our managed service constantly evolves to improve search performance. We do this by a process of monitoring, analysing and collaborating with clients to ensure that all assumptions are validated and where necessary modified and refined to ensure best results.</p>
 
   - positionRight : false
-    image : images/search-audit.png
+    image : images/about/search-audit.png
     title : Search audit
     description : >
       <p>Our expert team have devised a systematic audit tool and process to assess and deliver end-to-end search diagnostics for your company. We take a granular look at your current search capacity, capability, efficiency and effectiveness, and then architect a system wide (website and intranet/internal data sources) solution. Our audit allows clients to:</p>
@@ -52,7 +52,7 @@ item    :
       </ul>
 
   - positionRight : true
-    image : images/search-application-assessment.jpg
+    image : images/about/search-application-assessment.jpg
     title : Search Application Assessment
     description : >
       <p>Search software implementations are specialised projects. Whilst some technology service companies are proficient at implementing out of the box technology, most do not have the expertise to assess the underlying technology or to manage and optimise existing search platforms.</p>
