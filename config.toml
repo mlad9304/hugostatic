@@ -82,21 +82,13 @@ description = "Improved website search always means either a measurable increase
 enable = true
 title = "Our Services"
 [params.contact]
-address = "14/05, Stockhome <br> Victori Palace , United States"
-dribbble = "https://dribbble.com/"
 enable = true
-facebook = "https://www.facebook.com/"
-fax = "+61 3827 3590"
-instagram = "https://www.instagram.com/"
-linkedin = "https://www.linkedin.com/"
+address = "10777 Main Street, <br> Suite 204 , bla bla"
 mapLatitude = "51.507351"
 mapLongitude = "-0.127758"
 mapMarker = "images/marker.png"
-phone = "(03) 9283 2617"
 subtitle = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
 title = "Contact Us."
-topTitle = "DROP US A NOTE"
-twitter = "https://twitter.com/"
 [params.hero]
 btnText = "Know More"
 btnURL = "https://themefisher.com/"
