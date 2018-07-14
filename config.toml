@@ -10,15 +10,15 @@ theme = "navigator-hugo"
     [[menu.nav]]
         name    = "Our Services"
         url     = "/services.html"
-        weight  = 1
+        weight  = 11
     [[menu.nav]]
         name    = "Our Expertise"
         url     = "/our-expertise"
-        weight  = 2
+        weight  = 12
     [[menu.nav]]
         name    = "Our Company"
         url     = "/our-company"
-        weight  = 3
+        weight  = 13
     
 
 
@@ -26,71 +26,71 @@ theme = "navigator-hugo"
     [[menu.product]]
         name    = "Pricing"
         url     = "/pricing"
-        weight  = 1
+        weight  = 21
     [[menu.product]]
         name    = "Why Us"
         url     = "/why-search365"
-        weight  = 2
+        weight  = 22
     [[menu.product]]
         name    = "How It Works"
         url     = "/how-it-works"
-        weight  = 3
+        weight  = 23
 
     # Footer Company links Menu
     [[menu.company]]
         name    = "About Us"
         url     = "/about"
-        weight  = 1
+        weight  = 31
     [[menu.company]]
         name    = "Blog"
         url     = "/blog"
-        weight  = 2
+        weight  = 32
     [[menu.company]]
         name    = "Jobs"
         url     = "/jobs"
-        weight  = 3
+        weight  = 33
 
     # Footer Security links Menu
     [[menu.security]]
         name    = "Availability &amp; Trust"
         url     = "/availability-trust"
-        weight  = 1
+        weight  = 41
     [[menu.security]]
         name    = "Security"
         url     = "/security"
-        weight  = 2
+        weight  = 42
     [[menu.security]]
         name    = "White Hat"
         url     = "/whitehat"
-        weight  = 3
+        weight  = 43
 
     # Footer Learn links Menu
     [[menu.learn]]
         name    = "Help &amp; Support"
         url     = "/support"
-        weight  = 1
+        weight  = 51
     [[menu.learn]]
         name    = "Documentation"
         url     = "/docs"
-        weight  = 2
+        weight  = 52
     [[menu.learn]]
         name    = "Open Source"
         url     = "/opensource"
-        weight  = 3
+        weight  = 53
 
     # Footer Extend links Menu
     [[menu.extend]]
         name    = "Lock"
         url     = "/lock"
-        weight  = 1
+        weight  = 61
     [[menu.extend]]
         name    = "WordPress"
         url     = "/wordpress"
-        weight  = 2
+        weight  = 62
     [[menu.extend]]
         name    = "API Explorer"
         url     = "/apiv2"
-        weight  = 3
+        weight  = 63
 
     
     
