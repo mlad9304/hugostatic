@@ -53,6 +53,25 @@
                         {{ end }}
                     </ul>
                 </div>
+                <div class="col-sm">
+                    <h3>Contact</h3>
+                    <ul><li><a href="mailto:support@dept.com">Email Us</a></li></ul>
+                    <p>10777 Main Street<br>Suite 204<br>bla bla</p>
+                </div>
+                <div class="col-sm">
+                    <h3>SALES</h3>
+                    <ul>
+                        {{ range .Site.Params.footer.salesPhone }}
+                            <li><a href="{{.href}}">{{.name}}</a></li>
+                        {{ end }}
+                    </ul>
+                    <h3 style="margin-top: 15px !important; margin-bottom: 0px !important;">SUPPORT</h3>
+                    <ul>
+                        {{ with .Site.Params.footer.supportPhone }}
+                            <li><a href="{{.href}}">{{.name}}</a></li>
+                        {{ end }}
+                    </ul>
+                </div>
             </div>
         </div>
     </div>

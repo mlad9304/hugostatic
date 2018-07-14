@@ -89,6 +89,17 @@ mapLongitude = "-0.127758"
 mapMarker = "images/marker.png"
 subtitle = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
 title = "Contact Us."
+[params.footer]
+
+[[params.footer.salesPhone]]
+href = "tel:+18882352699"
+name = "+1 (888) 235-2699"
+[[params.footer.salesPhone]]
+href = "tel:+14253126521"
+name = "+1 (425) 312-6521"
+[params.footer.supportPhone]
+href = "tel:+14255599554"
+name = "+1 (425) 559-9554"
 [params.hero]
 btnText = "Know More"
 btnURL = "https://themefisher.com/"
