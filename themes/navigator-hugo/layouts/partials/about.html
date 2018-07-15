@@ -4,7 +4,7 @@
     <div class="container">
         {{ range .Site.Data.about.item }}
             {{ if .positionRight }}
-                <div class="row mt-50 justify-content-center">
+                <div class="row justify-content-center mt-100">
                     <div class="col-md-5 col-md-5 col-sm-12">
                         <div class="content">
                             <h2>{{ .title }}</h2>
@@ -18,7 +18,7 @@
                     </div>
                 </div>
             {{ else }}
-                <div class="row mb-50 justify-content-center">
+                <div class="row mt-100 justify-content-center">
                     <div class="col-md-6 col-sm-12 text-center mt-3">
                         <img src="{{ .image }}" class="img-fluid rounded shadow" alt="about-image">
                     </div>
