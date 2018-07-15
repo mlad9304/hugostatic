@@ -625,6 +625,7 @@ a:focus, a:hover {
 
 .hero-area .block .list-inline {
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .hero-area .block .btn-main, .hero-area .block .btn-main-sm {
